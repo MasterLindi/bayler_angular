@@ -1,0 +1,3 @@
+<ul class="navigation" *ngFor="#page of pageList">
+    <li (click)="navigateTo(page.fragment)">{{ page.name}}</li>
+</ul>

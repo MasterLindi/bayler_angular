@@ -1,4 +1,4 @@
-import { BaylerCliAngularPage } from './app.po';
+import {BaylerCliAngularPage} from "./app.po";
 
 describe('bayler-cli-angular App', function() {
   let page: BaylerCliAngularPage;
@@ -9,6 +9,6 @@ describe('bayler-cli-angular App', function() {
 
   it('should display message saying app works', () => {
     page.navigateTo();
-    expect(page.getParagraphText()).toEqual('app works!');
+    expect(page.getParagraphText()).toEqual('Weingut Bayler');
   });
 });
